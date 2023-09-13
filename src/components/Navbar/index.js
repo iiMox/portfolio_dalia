@@ -12,8 +12,12 @@ const Navbar = () => {
                 <li>Service</li>
                 <li>Projects</li>
                 <li>Blog</li>
-                <li>Let's talk</li>
+                <li>
+                    Let's talk
+                    <div></div>
+                </li>
             </ul>
+            <hr />
         </div>
     );
 };
