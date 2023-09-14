@@ -1,0 +1,25 @@
+.hero-section .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-section .picture {
+    width: 50%;
+}
+
+.hero-section .picture img {
+    max-width: 75%;
+    transform: translateX(-65px);
+}
+
+.hero-section .text {
+    width: 50%;
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 70px;
+}
+
+.hero-section .text span {
+    font-weight: 600;
+}

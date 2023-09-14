@@ -1,4 +1,4 @@
-.navbar {
+.navbar .container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,6 +13,7 @@
 
 .navbar .logo h1 {
     font-size: 27.15px;
+    font-weight: 500;
 }
 
 .navbar ul {

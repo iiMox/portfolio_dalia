@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -15,4 +16,9 @@
 
 .container {
     margin: 0 60px;
+    /* max-width: 1320px; */
+}
+
+body {
+    position: relative;
 }
