@@ -1,0 +1,36 @@
+.service-box {
+    width: 33.33333%;
+}
+
+.service-box img {
+    margin-bottom: 90px;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.service-box .desc {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-box .desc p {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.service-box .desc ul {
+    margin-left: 40px;
+}
+
+.service-box .desc ul li {
+    margin-bottom: 10px;
+}

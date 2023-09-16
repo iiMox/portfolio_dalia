@@ -9,3 +9,16 @@
     font-weight: 400;
     text-align: center;
 }
+
+.section .content {
+    position: relative;
+}
+
+.section .content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: calc(60% - 60px);
+    height: 1px;
+    background-color: #e4e4e4;
+}

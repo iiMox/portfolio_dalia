@@ -1,6 +1,7 @@
 import Navbar from "../Navbar";
 import Welcome from "../Welcome";
 import About from "../About";
+import Service from "../Service";
 
 import "./Home.css";
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Navbar />
             <Welcome />
             <About />
+            <Service />
         </div>
     );
 };
