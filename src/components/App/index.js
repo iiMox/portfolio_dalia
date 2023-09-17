@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "../Home";
-import NotFound from "../404";
+import Home from "../../pages/Home";
+import NotFound from "../../pages/404";
 
 import "./App.css";
 

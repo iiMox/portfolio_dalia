@@ -1,16 +1,31 @@
+import { useEffect, useState } from "react";
 import Section from "../Section";
 import Project from "../Project";
 
 import "./Projects.css";
 
 const Projects = () => {
+    const [padding, setPadding] = useState(60);
+    useEffect(() => {
+        setPadding(
+            document.querySelector(
+                ".projects-section .row:first-of-type .project:first-of-type .initial"
+            )?.offsetWidth
+        );
+    }, []);
+
     return (
         <div className='projects-section'>
             <Section
                 title='Projects'
                 content={
                     <>
-                        <div className='row'>
+                        <div
+                            className='row'
+                            style={{
+                                paddingLeft: `${padding + 5 + 60}px`,
+                            }}
+                        >
                             <Project
                                 image='project_1.png'
                                 project='Energy efficient House'
