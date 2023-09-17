@@ -9,7 +9,6 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer>
-            <div className='bg'></div>
             <div className='container'>
                 <div className='social'>
                     <div

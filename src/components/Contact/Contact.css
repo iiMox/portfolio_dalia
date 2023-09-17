@@ -1,29 +1,15 @@
 .contact-section .section {
-    padding-bottom: 0;
+    padding: 0;
+}
+
+.contact-section .section h2 {
+    padding: 75px 0 30px;
+    margin: 0;
+    background-color: #fff;
 }
 
 .contact-section .content::before {
     left: 60px;
-}
-
-.contact-section .content .bg {
-    background: linear-gradient(
-        184.1deg,
-        #cdb4db -48.94%,
-        rgba(205, 180, 219, 0.348949) -12.4%,
-        rgba(205, 180, 219, 0.468391) 2.92%,
-        rgba(205, 180, 219, 0.848958) 32.07%,
-        rgba(205, 180, 219, 0) 94.53%
-    );
-    mix-blend-mode: normal;
-    opacity: 0.2;
-    backdrop-filter: blur(2px);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 }
 
 .contact-section .content .container {

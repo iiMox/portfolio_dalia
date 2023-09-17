@@ -10,7 +10,6 @@ const Contact = () => {
                 title="Let's talk"
                 content={
                     <>
-                        <div className='bg'></div>
                         <div className='container'>
                             <form>
                                 <div className='box'>

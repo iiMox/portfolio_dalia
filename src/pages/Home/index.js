@@ -16,8 +16,11 @@ const Home = () => {
             <About />
             <Service />
             <Projects />
-            <Contact />
-            <Footer />
+            <div className='wrapper'>
+                <div className='bg'></div>
+                <Contact />
+                <Footer />
+            </div>
         </div>
     );
 };
