@@ -1,0 +1,38 @@
+.projects-section .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    min-height: calc(2 * 780px + 100px);
+}
+
+.projects-section .content::before {
+    left: 60px;
+}
+
+.projects-section .content .row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    padding: 0 60px 0 115px;
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 780px;
+    animation: slide 20s linear infinite;
+}
+
+.projects-section .content .row:last-of-type {
+    justify-content: flex-end;
+    top: calc(780px + 100px);
+    left: -100%;
+    animation-direction: reverse;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}

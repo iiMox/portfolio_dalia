@@ -1,0 +1,25 @@
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contact-field label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-field input,
+.contact-field textarea {
+    border-radius: 7px;
+    border: none;
+    background-color: #f4eff7;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 18px;
+}
+
+.contact-field textarea {
+    resize: none;
+    height: 125px;
+}
