@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "project": "Energy efficient House",
+        "image": "project_1.png"
+    },
+    {
+        "id": 2,
+        "project": "Landscape Centrality",
+        "image": "project_2.png"
+    },
+    {
+        "id": 3,
+        "project": "Urban Neighborhood",
+        "image": "project_3.png"
+    },
+    {
+        "id": 4,
+        "project": "Residential",
+        "image": "project_4.png"
+    },
+    {
+        "id": 5,
+        "project": "Shopping Center",
+        "image": "project_5.png"
+    },
+    {
+        "id": 6,
+        "project": "Tiny House Airbnb",
+        "image": "project_6.png"
+    }
+]

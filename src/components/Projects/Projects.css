@@ -19,6 +19,7 @@
     height: 780px;
     /* animation: slide 20s linear infinite; */
     animation: scroll 10s linear infinite;
+    padding: 0 60px;
 }
 
 .projects-section .content .row:last-of-type {

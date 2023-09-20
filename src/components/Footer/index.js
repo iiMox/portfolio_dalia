@@ -23,25 +23,25 @@ const Footer = () => {
                     >
                         <img src={upIcon} alt='Up Icon' />
                     </div>
-                    <a href='https://fiverr.com' target='_blank'>
+                    <a href='https://www.fiverr.com/daliayaici' target='_blank'>
                         <img src={fiverrIcon} alt='Fiverr' />
                     </a>
                     <a
-                        href='https://instagram.com'
+                        href='https://www.instagram.com/dalia.yaici'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <img src={instaIcon} alt='Instagram' />
                     </a>
                     <a
-                        href='https://linkedin.com'
+                        href='https://www.linkedin.com/in/daliayaïci'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <img src={linkedinIcon} alt='Linkedin' />
                     </a>
                     <a
-                        href='https://gmail.com'
+                        href='mailto:dalia.yaici@gmail.com'
                         target='_blank'
                         rel='noreferrer'
                     >

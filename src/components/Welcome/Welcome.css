@@ -2,15 +2,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 125px 0;
 }
 
 .hero-section .picture {
     width: 50%;
+    /* position: relative; */
 }
 
 .hero-section .picture img {
-    max-width: 75%;
-    transform: translateX(-65px);
+    width: 550px;
+    position: absolute;
+    left: -2px;
+    top: 50px;
+    z-index: -1;
 }
 
 .hero-section .text {

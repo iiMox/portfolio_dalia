@@ -1,16 +1,17 @@
-import { useRef, useState, useEffect } from "react";
-
+import { useEffect, useState } from "react";
 import "./Project.css";
 
-const Project = ({ image, project }) => {
+const Project = ({ image, project, row, index }) => {
     const bg = require(`../../assets/${image}`);
-
-    const initialRef = useRef(null);
 
     const [left, setLeft] = useState(0);
 
     useEffect(() => {
-        setLeft(initialRef.current.offsetWidth);
+        setLeft(
+            document.querySelector(
+                `.home .projects-section .content .row:nth-of-type(${row}) .project:nth-of-type(${index}) .initial`
+            )?.offsetWidth
+        );
     }, []);
 
     return (
@@ -19,8 +20,9 @@ const Project = ({ image, project }) => {
             <img src={bg} alt={project} />
             <div
                 className='initial'
-                ref={initialRef}
-                style={{ left: `-${left + 5}px` }}
+                style={{
+                    left: `-${left + 5}px`,
+                }}
             >
                 {project.charAt(0)}
             </div>

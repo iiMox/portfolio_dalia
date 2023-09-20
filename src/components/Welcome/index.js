@@ -1,9 +1,8 @@
 import "./Welcome.css";
 import portrait from "../../assets/portrait.png";
-import { useEffect } from "react";
 
 const Welcome = () => {
-    useEffect(() => {
+    /* useEffect(() => {
         document.querySelector(".home .hero-section").style.height =
             window.innerHeight -
             document.querySelector(".home .navbar").offsetHeight +
@@ -15,7 +14,7 @@ const Welcome = () => {
                 document.querySelector(".home .navbar").offsetHeight +
                 "px";
         });
-    }, []);
+    }, []); */
 
     return (
         <div className='hero-section'>
