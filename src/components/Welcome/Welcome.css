@@ -28,3 +28,56 @@
 .hero-section .text span {
     font-weight: 600;
 }
+
+@media (max-width: 767px) {
+    .hero-section .container {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .hero-section .picture img {
+        width: 75%;
+    }
+
+    .hero-section .text {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 45px;
+        width: 100%;
+        margin-top: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-section .picture img {
+        width: 350px;
+    }
+
+    .hero-section .text {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-section .picture img {
+        width: 450px;
+    }
+
+    .hero-section .text {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .hero-section .text {
+        font-size: 56px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero-section .text {
+        font-size: 66px;
+    }
+}

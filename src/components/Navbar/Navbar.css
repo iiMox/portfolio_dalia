@@ -162,14 +162,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .navbar .logo {
-        width: 40%;
+    .navbar .container {
+        margin: 0 30px;
     }
 
     .navbar ul {
         column-gap: normal;
         justify-content: space-between;
-        width: 60%;
     }
 
     .navbar ul li:last-of-type div {
