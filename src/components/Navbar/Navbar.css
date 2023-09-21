@@ -24,6 +24,40 @@
     column-gap: 48px;
     width: 50%;
     font-size: 16px;
+    position: relative;
+}
+
+.navbar ul .close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar ul .close:hover {
+    opacity: 1;
+}
+
+.navbar ul .close:before,
+.navbar ul .close:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #000;
+}
+
+.navbar ul .close:before {
+    transform: rotate(45deg);
+}
+
+.navbar ul .close:after {
+    transform: rotate(-45deg);
 }
 
 .navbar ul li {
@@ -52,6 +86,21 @@
     transform: translate(50%, -25px);
 }
 
+.navbar .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .hamburger-menu div {
+    background-color: #000;
+    width: 28px;
+    height: 4px;
+    border-radius: 10px;
+}
+
 .navbar hr {
     width: 95%;
     height: 1px;
@@ -62,10 +111,54 @@
     z-index: -2;
 }
 
-@media (max-width: 575px) {
-}
+@media (max-width: 767px) {
+    .navbar .logo {
+        flex: 1;
+    }
 
-@media (min-width: 576px) and (max-width: 757px) {
+    .navbar ul {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--purple);
+        flex-direction: column;
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+        font-size: 30px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar ul.show {
+        left: 0;
+    }
+
+    .navbar ul .close {
+        display: block;
+    }
+
+    .navbar ul li {
+        transition: all 0.25s ease-in-out;
+    }
+
+    .navbar ul li:hover {
+        transform: translateX(10px);
+    }
+
+    .navbar ul li:last-of-type {
+        font-weight: 400;
+    }
+
+    .navbar ul li:last-of-type div {
+        display: none;
+    }
+
+    .navbar .hamburger-menu {
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -74,7 +167,8 @@
     }
 
     .navbar ul {
-        column-gap: 24px;
+        column-gap: normal;
+        justify-content: space-between;
         width: 60%;
     }
 
@@ -90,7 +184,8 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar ul {
-        column-gap: 24px;
+        column-gap: normal;
+        justify-content: space-between;
     }
 
     .navbar ul li:last-of-type div {

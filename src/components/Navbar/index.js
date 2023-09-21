@@ -8,6 +8,14 @@ const Navbar = () => {
                     <h1>Dalia's Portfolio</h1>
                 </div>
                 <ul>
+                    <div
+                        className='close'
+                        onClick={() => {
+                            document
+                                .querySelector(".navbar ul")
+                                .classList.remove("show");
+                        }}
+                    ></div>
                     <li>Home</li>
                     <li>About Me</li>
                     <li>Service</li>
@@ -18,6 +26,18 @@ const Navbar = () => {
                         <div></div>
                     </li>
                 </ul>
+                <div
+                    className='hamburger-menu'
+                    onClick={() => {
+                        document
+                            .querySelector(".navbar ul")
+                            .classList.add("show");
+                    }}
+                >
+                    <div className='line'></div>
+                    <div className='line'></div>
+                    <div className='line'></div>
+                </div>
                 <hr />
             </div>
         </div>
