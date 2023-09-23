@@ -1,4 +1,5 @@
 import Section from "../Section";
+import CV from "../../assets/Dalia Dahbia YAICI.pdf";
 
 import "./About.css";
 
@@ -25,7 +26,14 @@ const About = () => {
                                         <span>dalia.yaici@gmail.com</span>
                                     </li>
                                 </ul>
-                                <button>Download Resume</button>
+                                <a
+                                    href={CV}
+                                    download='CV Dalia Dahbia YAICI'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    Download Resume
+                                </a>
                             </div>
                             <div className='desc'>
                                 Hi, I’m Dalia <br /> As a junior architect, I am

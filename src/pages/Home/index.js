@@ -3,8 +3,9 @@ import Welcome from "../../components/Welcome";
 import About from "../../components/About";
 import Service from "../../components/Service";
 import Projects from "../../components/Projects";
+
+import Wrapper from "../../components/Wrapper";
 import Contact from "../../components/Contact";
-import Footer from "../../components/Footer";
 
 import "./Home.css";
 
@@ -16,11 +17,9 @@ const Home = () => {
             <About />
             <Service />
             <Projects />
-            <div className='wrapper'>
-                <div className='bg'></div>
+            <Wrapper>
                 <Contact />
-                <Footer />
-            </div>
+            </Wrapper>
         </div>
     );
 };

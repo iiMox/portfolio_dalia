@@ -1,0 +1,77 @@
+.project-page h2 {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 88px 0 75px;
+}
+
+.project-page .content .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.project-page .content .container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2%;
+}
+
+.project-page .content .container .row:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
+.project-page .content .container .row > div {
+    width: 49%;
+}
+
+.project-page .content .container .row .text {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.project-page .content .container .row .text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.project-page .content .container .row .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-page .content .container .row .image img {
+    width: 100%;
+}
+
+.project-page .content .container .carousel {
+    margin: 120px auto;
+}
+
+.project-page .content .container .carousel:last-of-type {
+    margin-bottom: 0;
+}
+
+.project-page .content .container .carousel-inner {
+    text-align: center;
+}
+
+.project-page .wrapper footer .container {
+    padding-top: 250px;
+}
+
+.project-page .wrapper .bg {
+    background: linear-gradient(
+        184.1deg,
+        #bde0fe -48.94%,
+        #bde0fe -32.43%,
+        #ffffff 1.92%,
+        #bde0fe 36.69%,
+        #cdb4db 89.04%
+    );
+}
