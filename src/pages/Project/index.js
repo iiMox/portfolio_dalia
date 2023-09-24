@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Wrapper from "../../components/Wrapper";
 import projects from "../../utils/projects.json";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "../../components/Carousel";
 import { useParams } from "react-router-dom";
 import parse from "html-react-parser";
 
@@ -23,7 +23,7 @@ const Project = () => {
                             {row.text !== undefined ? (
                                 <div className='text'>
                                     {index === 0 ? (
-                                        <h3>{project.project}</h3>
+                                        <h3>{project.label}</h3>
                                     ) : (
                                         ""
                                     )}
@@ -47,25 +47,24 @@ const Project = () => {
                             </div>
                         </div>
                     ))}
-                    {project.carousels.map((size, i) => (
-                        <Carousel indicators={true}>
-                            {Array.from(Array(size)).map((item, j) => (
-                                <Carousel.Item>
-                                    <img
-                                        src={require(`../../assets/projects/project_${
-                                            project.id
-                                        }/carousel_${i + 1}/image_${
-                                            j + 1
-                                        }.png`)}
-                                        alt={j}
-                                    />
-                                </Carousel.Item>
-                            ))}
-                        </Carousel>
-                    ))}
+
+                    {/* {Array.from(Array(size)).map((item, j) => (
+                                <img
+                                    src={require(`../../assets/projects/project_${
+                                        project.id
+                                    }/carousel_${i + 1}/image_${j + 1}.png`)}
+                                    alt={j}
+                                />
+                            ))} */}
                 </div>
             </div>
-            <Wrapper></Wrapper>
+            <Wrapper>
+                <div className='box'>
+                    {project.carousels.map((size, i) => (
+                        <Carousel size={size} row={i} id={project.id} />
+                    ))}
+                </div>
+            </Wrapper>
         </div>
     );
 };

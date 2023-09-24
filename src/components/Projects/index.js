@@ -32,6 +32,7 @@ const Projects = () => {
                                 .map((project) => (
                                     <Project
                                         key={project.id}
+                                        id={project.id}
                                         image={project.image}
                                         project={project.project}
                                         index={project.id}

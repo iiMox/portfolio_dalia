@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Project.css";
 
-const Project = ({ image, project, row, index }) => {
+const Project = ({ id, image, project, row, index }) => {
     const bg = require(`../../assets/${image}`);
 
     const [left, setLeft] = useState(0);
@@ -15,7 +15,14 @@ const Project = ({ image, project, row, index }) => {
     }, []);
 
     return (
-        <div className='project'>
+        <div
+            className='project'
+            onClick={() => {
+                window.location = `/projects/${
+                    id === 4 ? "1#residential" : id
+                }`;
+            }}
+        >
             <div className='overlay'></div>
             <img src={bg} alt={project} />
             <div
