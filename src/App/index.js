@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "../pages/Home";
+import Projects from "../pages/Projects";
 import Project from "../pages/Project";
 import NotFound from "../pages/404";
 
@@ -10,6 +11,10 @@ const App = () => {
         {
             path: "/",
             element: <Home />,
+        },
+        {
+            path: "/projects",
+            element: <Projects />,
         },
         {
             path: "/projects/:id",

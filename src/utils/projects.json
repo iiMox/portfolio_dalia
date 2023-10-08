@@ -107,53 +107,33 @@
     {
         "id": 5,
         "project": "Shopping Center",
+        "label": "SHOPPING AND LEISURE CENTER/ MALL City of Boufarik. Algeria",
         "image": "project_5.png",
         "rows": [
             {
-                "text": "The project consists of designing a highly energy-efficient house in the city of Blida. The goal is to reduce energy consumption, protect the environment, and ensure thermal comfort for the occupants.<br/> The house has a total surface area of 70 square meters and includes an open space that accommodates a meeting room, a kitchenette, a separate office, and a bathroom.<br/> The design features a compact volume with carefully selected inclinations to maximize the south-facing surface area, allowing for optimal solar gains during the winter while preventing overheating from the west during the summer months."
-            },
-            {
-                "text": "The south-facing facade incorporates a solar capture system for the winter period and provides protection during the summer. The house has two roof inclinations facing south, with one used for solar capture system protection and for installing photovoltaic panels, while the other is used for installing solar thermal panels.<br/> A porch is created for protection and can be used as an outdoor relaxation area. Active heating, cooling, and domestic hot water production are provided by a heat pump.<br/> A north-facing terrace is designed to facilitate access to the equipment installed on the sloping roof and creates an outdoor workspace."
-            },
-            {
-                "image": ""
-            },
-            {
-                "text": "Our objective is to ensure at least 50% of heating, cooling, and lighting through passive bioclimatic design, while the remaining portion will be divided between internal gains (occupants, equipment, lighting, etc.) and active auxiliary systems used. The house is constructed using monomur brick, which has a thermal conductivity of 0.08 W/m.K and a density of 0.6 Kg/dm³, with dimensions of 14.8×30.0×24.9.<br/> This type of material has insulating properties due to the numerous cavities present in the brick, which function similarly to thermal insulation. Therefore, we have not included an additional insulation layer in the composition of the exterior walls.<br/> According to the Givoni diagram (20.2% passive solar heating with direct gain using thermal mass), we have proposed a system that combines direct gain and a trombe wall (thermal mass).<br/> The typical trombe wall is divided into six independent sections, each oriented at a 45° angle with respect to the glazing. These wall sections have dimensions of 800 mm by 300 mm, with centers spaced 1.2 m apart and a height of 2.0 m."
-            },
-            {
-                "text": "Solar protection:<br/> In order to protect the south facade from direct solar radiation, a solar shading system has been implemented.<br/> Latitude: 36.5°<br/> Software used for calculation: Excel"
+                "text": "The site is located at the intersection of two significant roads with historical character. The land is situated at the entrance of the city (western gateway of the city). The site is within the former location of the historical market (during the Ottoman period) and the Erlon camp from the French period.<br/>Based on our intention to highlight the history of the place (former market) and nature, we have opted for two groupings: <br/> 1st Grouping: Commerce/Culture: which showcases the history of the place through the combination of commerce and culture.<br/>2nd Grouping: Relaxation/Nature: which emphasizes the value of natural elements, such as streams and greenery, in relation to the city, and identifies the project with the use of pilotis.<br/>The connection between the two groupings will be established through culture."
             }
         ],
         "carousels": [
-            7,
-            6
+            10
         ]
     },
     {
         "id": 6,
         "project": "Tiny House Airbnb",
+        "label": "Airbnb Tiny House",
         "image": "project_6.png",
         "rows": [
             {
-                "text": "The project consists of designing a highly energy-efficient house in the city of Blida. The goal is to reduce energy consumption, protect the environment, and ensure thermal comfort for the occupants.<br/> The house has a total surface area of 70 square meters and includes an open space that accommodates a meeting room, a kitchenette, a separate office, and a bathroom.<br/> The design features a compact volume with carefully selected inclinations to maximize the south-facing surface area, allowing for optimal solar gains during the winter while preventing overheating from the west during the summer months."
+                "text": "The idea of a modular tiny house that regroup housing functions and offer pleasing views with a main goal is to design a house with maximum space optimization. The signifcant potential of the site will guide the design of the project by: taking advantage of the south-facing orientation towards the sea while protecting the side walls from prevailing winds coming from the east and northeast."
             },
-            {
-                "text": "The south-facing facade incorporates a solar capture system for the winter period and provides protection during the summer. The house has two roof inclinations facing south, with one used for solar capture system protection and for installing photovoltaic panels, while the other is used for installing solar thermal panels.<br/> A porch is created for protection and can be used as an outdoor relaxation area. Active heating, cooling, and domestic hot water production are provided by a heat pump.<br/> A north-facing terrace is designed to facilitate access to the equipment installed on the sloping roof and creates an outdoor workspace."
-            },
-            {
-                "image": ""
-            },
-            {
-                "text": "Our objective is to ensure at least 50% of heating, cooling, and lighting through passive bioclimatic design, while the remaining portion will be divided between internal gains (occupants, equipment, lighting, etc.) and active auxiliary systems used. The house is constructed using monomur brick, which has a thermal conductivity of 0.08 W/m.K and a density of 0.6 Kg/dm³, with dimensions of 14.8×30.0×24.9.<br/> This type of material has insulating properties due to the numerous cavities present in the brick, which function similarly to thermal insulation. Therefore, we have not included an additional insulation layer in the composition of the exterior walls.<br/> According to the Givoni diagram (20.2% passive solar heating with direct gain using thermal mass), we have proposed a system that combines direct gain and a trombe wall (thermal mass).<br/> The typical trombe wall is divided into six independent sections, each oriented at a 45° angle with respect to the glazing. These wall sections have dimensions of 800 mm by 300 mm, with centers spaced 1.2 m apart and a height of 2.0 m."
-            },
-            {
-                "text": "Solar protection:<br/> In order to protect the south facade from direct solar radiation, a solar shading system has been implemented.<br/> Latitude: 36.5°<br/> Software used for calculation: Excel"
-            }
+            {},
+            {},
+            {},
+            {}
         ],
         "carousels": [
-            7,
-            6
+            5
         ]
     }
 ]

@@ -19,7 +19,7 @@ const Project = ({ id, image, project, row, index }) => {
             className='project'
             onClick={() => {
                 window.location = `/projects/${
-                    id === 4 ? "1#residential" : id
+                    id === 4 ? "3#residential" : id
                 }`;
             }}
         >

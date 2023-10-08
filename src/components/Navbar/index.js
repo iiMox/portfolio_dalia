@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -16,13 +18,23 @@ const Navbar = () => {
                                 .classList.remove("show");
                         }}
                     ></div>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Service</li>
-                    <li>Projects</li>
-                    <li>Blog</li>
                     <li>
-                        Let's talk
+                        <NavLink to='/'>Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>About Me</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>Service</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/projects'>Projects</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>Blog</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>Let's talk</NavLink>
                         <div></div>
                     </li>
                 </ul>

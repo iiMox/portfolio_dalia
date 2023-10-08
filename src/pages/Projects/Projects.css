@@ -1,0 +1,61 @@
+.projects-page h2 {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 88px 0 75px;
+}
+
+.projects-page .content .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px 20px;
+    margin-bottom: -75px;
+}
+
+.projects-page .content .container .thumbnail {
+    width: calc(50% - 20px);
+    position: relative;
+    cursor: pointer;
+}
+
+.projects-page .content .container .thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.projects-page .content .container .thumbnail:hover .overlay {
+    opacity: 1;
+}
+
+.projects-page .content .container .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects-page .wrapper .bg {
+    background: linear-gradient(
+        184.1deg,
+        #bde0fe -48.94%,
+        #bde0fe -32.43%,
+        #ffffff 1.92%,
+        #bde0fe 36.69%,
+        #cdb4db 89.04%
+    );
+}
+
+.projects-page footer .container {
+    padding-top: 350px;
+}

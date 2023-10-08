@@ -6,11 +6,19 @@ import { useParams } from "react-router-dom";
 import parse from "html-react-parser";
 
 import "./Project.css";
+import { useEffect } from "react";
 
 const Project = () => {
     const params = useParams();
 
-    const project = projects.filter((prj) => prj.id == params.id)[0];
+    const project = projects.filter((prj) => prj.id === parseInt(params.id))[0];
+
+    useEffect(() => {
+        if (window.location.hash !== "")
+            document
+                .getElementById(window.location.hash.substring(1))
+                .scrollIntoView();
+    }, []);
 
     return (
         <div className='project-page'>
@@ -35,7 +43,10 @@ const Project = () => {
                             <div
                                 className='image'
                                 style={{
-                                    width: `${index === 2 ? "75%" : "49%"}`,
+                                    /* width: `${index === 2 ? "75%" : "49%"}`, */
+                                    width: `${
+                                        row.text === undefined ? "100%" : "49%"
+                                    }`,
                                 }}
                             >
                                 <img

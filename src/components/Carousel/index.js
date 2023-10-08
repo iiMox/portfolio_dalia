@@ -55,7 +55,10 @@ const Carousel = ({ id, row, size }) => {
     }, [current, row]);
 
     return (
-        <div className={`carousel-container carousel-${row + 1}`}>
+        <div
+            className={`carousel-container carousel-${row + 1}`}
+            id={id === 3 && row === 1 ? "residential" : ""}
+        >
             <button className='prev' onClick={() => handlePrev()}>
                 Previous
             </button>
