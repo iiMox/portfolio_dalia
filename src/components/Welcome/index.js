@@ -1,5 +1,4 @@
 import "./Welcome.css";
-import portrait from "../../assets/portrait.png";
 
 const Welcome = () => {
     /* useEffect(() => {
@@ -20,7 +19,7 @@ const Welcome = () => {
         <div className='hero-section'>
             <div className='container'>
                 <div className='picture'>
-                    <img src={portrait} alt='Portrait' />
+                    {/*  <img src={portrait} alt='Portrait' /> */}
                 </div>
                 <div className='text'>
                     Welcome!
